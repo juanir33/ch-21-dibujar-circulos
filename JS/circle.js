@@ -26,7 +26,7 @@ function radio() {
 
   }else{ 
      let error = document.createElement('p');
-      error.innerHTML = 'Por favor ingresa un valor mayor a 0 class = "list"';
+      error.innerHTML = 'Por favor ingresa un valor mayor a 0';
         
      let mjs = document.querySelector('.form')
      mjs.appendChild(error)
